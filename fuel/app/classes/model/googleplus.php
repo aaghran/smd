@@ -6,7 +6,7 @@ class Model_Googleplus extends \Orm\Model
 	protected static $_properties = array(
 		'id',
 		'c_id',
-		'link_url',
+		'google_url',
 		'approved',
 		'created_at',
 		'updated_at',

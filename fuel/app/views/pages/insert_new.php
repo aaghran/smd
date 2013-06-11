@@ -16,7 +16,11 @@
         </td>
     </tr>
 
-    
+    <tr><td style="width: 300px">
+            <?php echo Form::label('Description', 'desc'); ?>
+            <?php echo Form::textarea('desc', Input::post('desc', isset($post) ? $post->desc : '')); ?>
+        </td>        
+    </tr>
     <tr>
         <td>
             <?php echo Form::label('Facebook Link', 'fb_link'); ?>
@@ -37,11 +41,7 @@
             <?php echo Form::input('linkedin_link', Input::post('linkedin_link', isset($post) ? $post->linkedin_link : '')); ?>
         </td>
     </tr>
-<tr><td style="width: 300px">
-            <?php echo Form::label('Description', 'desc'); ?>
-            <?php echo Form::textarea('desc', Input::post('desc', isset($post) ? $post->desc : '')); ?>
-        </td>        
-    </tr>
+
     <tr>
         <td>
             <div class="actions">

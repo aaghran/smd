@@ -6,7 +6,7 @@ class Model_Linkedin extends \Orm\Model
 	protected static $_properties = array(
 		'id',
 		'c_id',
-		'link_url',
+		'linkedin_url',
 		'approved',
 		'created_at',
 		'updated_at',
